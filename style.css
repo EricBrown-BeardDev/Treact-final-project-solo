@@ -316,7 +316,22 @@ header .row {
   letter-spacing: 0.6;
 }
 .header__customers {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
 }
+header {
+  position: relative;
+}
+/* .header__blob */
+.header__img--wrapper {
+  width: calc(100%-40%);
+}
+.header__img {
+  width: 100%;
+  max-width: 768px;
+}
+
 /* 
 
 FEATURES ↓
