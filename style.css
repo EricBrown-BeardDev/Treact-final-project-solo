@@ -1055,7 +1055,6 @@ footer {
 }
 .footer__socials {
   display: flex;
-  align-items: center;
   margin-left: -16px;
 }
 .footer__social--link svg {
@@ -1075,6 +1074,11 @@ footer {
 }
 .footer__social--link:hover {
   background-color: rgba(203, 213, 224);
+  color: white;
+}
+.footer__copyright {
+  color: #cbd5e0;
+  font-weight: 500;
 }
 
 /* 
